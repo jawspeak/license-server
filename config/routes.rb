@@ -2,7 +2,7 @@ LicenseServer::Application.routes.draw do
   devise_for :users
   root :to => "home#index"
 
-  post 'api/v1/login' => 'api/login#login'
+  post 'api/v1/session/create' => 'api/session#create'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
