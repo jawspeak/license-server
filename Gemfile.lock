@@ -185,6 +185,7 @@ DEPENDENCIES
   factory_girl_rails
   jquery-rails
   json
+  nokogiri
   rails (= 3.1.0)
   rspec
   rspec-rails

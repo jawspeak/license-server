@@ -21,6 +21,7 @@ end
 # To use debugger
 
 group :development do
+  gem 'nokogiri'
   gem 'ruby-debug'
   gem 'rspec'
   gem 'rspec-rails'

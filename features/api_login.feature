@@ -5,4 +5,4 @@ Feature: Log in by the api
   Scenario: Successfully log in
     Given that there is a user "steve@example.com" with a password "pass123"
     When I log in by the api
-    Then I should get back "OK"
+    Then I should get back the response "OK"

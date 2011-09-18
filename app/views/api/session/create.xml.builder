@@ -1,4 +1,4 @@
 xml.instruct!
-xml.Response do
+xml.response do
   xml.result @result
 end
